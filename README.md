@@ -19,9 +19,9 @@ This repository will continue to expand as additional Azure resources are added.
 ## Current Progress
 
 - ✅ Azure Resource Group
-- ⏳ Virtual Network
-- ⏳ Subnet
-- ⏳ Network Security Group
+- ✅ Virtual Network
+- ✅ Subnet
+- ✅ Network Security Group
 - ⏳ Public IP
 - ⏳ Network Interface
 - ⏳ Linux Virtual Machine
