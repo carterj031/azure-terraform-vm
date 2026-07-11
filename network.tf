@@ -41,3 +41,16 @@ resource "azurerm_public_ip" "main" {
   allocation_method   = "Static"
 
 }
+
+resource "azurerm_network_interface" "main" {
+  name                = "nic-terraform-lab"
+  location            = azurerm_resource_group.main.location
+  resource_group_name = azurerm_resource_group.main.name
+  ip_configuration {
+    name                          = "ipconfig1"
+    subnet_id                     = azurerm_subnet.main.id
+    private_ip_address_allocation = "Dynamic"
+    private_ip_address_version    = "IPv4"
+    public_ip_address_id          = azurerm_public_ip.main.id
+  }
+}
