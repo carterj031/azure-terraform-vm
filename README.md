@@ -22,9 +22,9 @@ This repository will continue to expand as additional Azure resources are added.
 - ✅ Virtual Network
 - ✅ Subnet
 - ✅ Network Security Group
-- ⏳ Public IP
-- ⏳ Network Interface
-- ⏳ Linux Virtual Machine
+- ✅ Public IP
+- ✅ Network Interface
+- ✅ Linux Virtual Machine
 
 ---
 
